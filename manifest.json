@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Quick QR",
+  "description": "",
+  "version": "1.0",
+  "icons": {
+    "16": "icons/icon_16.png",
+    "48": "icons/icon_48.png",
+    "128": "icons/icon_128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+        "16": "icons/icon_16.png",
+        "38": "icons/icon_38.png"
+    },
+    "default_title": "Quick QR"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
