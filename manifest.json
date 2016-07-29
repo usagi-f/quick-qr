@@ -15,6 +15,9 @@
         "38": "icons/icon_38.png"
     }
   },
+  "permissions": [
+      "tabs"
+  ],
   "background": {
     "scripts": ["background.js"]
   }
